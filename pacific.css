@@ -1,0 +1,85 @@
+/*Project Name: Pacific Trails Resort (HW15)Author: Alyssa GarciaDate Last Modified: April 4, 2019*//*Set the body background, text color, and font style */
+body { background-color: #3399CC;
+	background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper { background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+/* set yurt hero id*/ 
+#yurthero { height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+/*set homehero id*/
+#homehero { height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/*Set the header background, text color, and font style*/
+header { background-color: #000033;
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+}
+
+/* Set h1 element */
+h1 { background-image: url(sunset.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	padding-left: 2em;
+	height: 72px
+	margin-bottom: 0;
+}
+
+/*set nav element */
+nav { font-weight: bold;
+	background-color: #90C7E3;
+	padding-top: .5em;
+	padding-right: .5em;
+	padding-bottom: .5em;
+	padding-left: 2em;
+	text-decoration: none;
+}
+
+/*set h2 element text color and font style*/
+h2 { color: #3399CC;
+	font-family: Georgia, serif;
+}
+
+/*set h3 element*/
+h3 { color: #000033;
+}
+
+/*set main element*/
+main { padding-left: 2em;
+	padding-right: 2em;
+}
+
+/*set d2 element text color and font weight*/
+d2 { color: #000033;
+	font-weight: bold;
+}
+
+
+/* style all elements with class="resort"*/
+.resort { color: #000033;
+	font-size: 1.2em;
+}
+
+/* set footer */
+footer { font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+}
+
